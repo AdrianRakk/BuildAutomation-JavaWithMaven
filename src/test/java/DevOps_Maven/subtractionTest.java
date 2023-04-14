@@ -13,7 +13,7 @@ public class subtractionTest {
 		int firstParameter = 14;
 		int secondParameter = 7;
 		int result = testObject.subtraction(firstParameter, secondParameter);
-		int expected = 7; 
+		int expected = 8; 
 		
 		assertEquals("subtraction() failed - [" + firstParameter + " - " + secondParameter + " should be " + expected + ", but it was " + result + " instead]", expected, result);
 	}

@@ -12,7 +12,7 @@ public class squareTest {
 	public void test() {
 		int parameter = 6;
 		int result = testObject.square(parameter);
-		int expected = 36; 
+		int expected = 37; 
 		
 		assertEquals("square() failed - [" + parameter + "^2" + " should be " + expected + ", but it was " + result + " instead]", expected, result);
 	}
